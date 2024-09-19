@@ -1,0 +1,13 @@
+version: '3'
+services:
+  te-agent:
+    container_name: tee-agent
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: te-enterprise-agent
+    privileged: true
+    # command: /sbin/init | /start_te-a.sh
+    # tty: true
+    environment:
+      - ACCOUNT_TOKEN=<トークンを入れてください>
