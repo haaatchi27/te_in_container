@@ -1,4 +1,4 @@
-run Thousandeyes Enterjprise Agent in docker container.
+Run Thousandeyes Enterjprise Agent in docker container.
 
 $ git clone https://github.com/haaatchi27/te_in_container.git
 
