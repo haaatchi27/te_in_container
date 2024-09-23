@@ -7,7 +7,7 @@ RUN apt -qq update && \
 
 # install repository.
 ENV CODENAME jammy
-ENv INSTALL_REPOSITORY "https://apt.thousandeyes.com"
+ENV INSTALL_REPOSITORY "https://apt.thousandeyes.com"
 RUN echo "deb $INSTALL_REPOSITORY $CODENAME main" > /etc/apt/sources.list.d/thousandeyes.list && \
     chmod 644 /etc/apt/sources.list.d/thousandeyes.list
 
