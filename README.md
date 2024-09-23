@@ -1,7 +1,10 @@
-Run Thousandeyes Enterjprise Agent in docker container.
+# Running ThousandEyes Enterprise Agent in a Docker Container
 
-$ git clone https://github.com/haaatchi27/te_in_container.git
+```sh
+# 1. Clone the repository.
+git clone https://github.com/haaatchi27/te_in_container.git
 
-Add token in docker-compose.yml file.
+# 2. Add the token to the docker-compose.yml file.
 
-$ docker compose up -d
+# 3. Start the container.
+docker compose up -d
